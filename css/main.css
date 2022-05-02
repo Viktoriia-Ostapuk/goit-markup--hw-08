@@ -516,11 +516,6 @@ textarea {
 }
 
 /*ACTIVITY*/
-.activity {
-  padding-top: 0;
-  padding-bottom: 94px;
-}
-
 .section__title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -533,6 +528,13 @@ textarea {
 
 .section--padding-reset {
   padding-top: 0;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .section--padding-reset {
+    display: block;
+  }
 }
 
 .activity__list {

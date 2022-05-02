@@ -1,8 +1,5 @@
 /*ACTIVITY*/
-.activity {
-    padding-top: 0;
-    padding-bottom: 94px;
-}
+
 
 
 .section__title {
@@ -15,9 +12,17 @@
     color: var(--title-cl);
 }
 
-.section--padding-reset{
-    padding-top: 0;
-}
+
+    .section--padding-reset {
+        padding-top: 0;
+        display: none;
+    
+        @media screen and (min-width: 1200px) {
+            display: block;
+        }
+    }
+
+
 
 
 .activity__list {
