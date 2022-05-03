@@ -1,11 +1,9 @@
 .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    max-width: 1600px;
-    min-height: 600px;
+    min-width: 480px;
+    min-height: 400px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    // text-align: center;
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
@@ -14,29 +12,98 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 119px;
+    padding-bottom: 118px;
+ 
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    
+background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), url(..//..//images/back-color-x2.jpg);
+    
+}
+
+
+
+@media screen and (min-width: 768px) {
+     min-width:768px;
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+
+        padding-top: 200px;
+        padding-bottom: 200px;
+        min-width: 1600px;
+
+}
 }
 
 .hero__title {
+    padding: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+
     font-weight: 900;
-    line-height: 1.36;
-    font-size: 44px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 1.62;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--light-txt-cl);
+
+    @media screen and (min-width: 480px) {
+        font-size: 26px;
+        max-width: 360px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+        max-width: 360px;
+        line-height: 1.36;
+        max-width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
 .hero__button {
-    cursor: pointer;
-    margin-top: 40px;
-    padding: 10px 32px;
-    display: flexbox;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
+    min-width: 140px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 7px;
+
     color: var(--light-txt-cl);
     background-color: var(--accent-bg-cl);
-    border-radius: 4px;
-    border: transparent;
-}
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    display:block;
+    position: relative;
+    margin:0 auto;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--light-txt-cl);
+    background-color: var(--accent-bg-cl);
+    }
+
+    @media screen and (min-width: 480px) {
+        padding: 10px 32px;
+        font-size: 16px;
+        min-width: 200px;
+    }}
