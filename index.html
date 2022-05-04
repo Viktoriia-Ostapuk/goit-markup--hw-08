@@ -52,6 +52,61 @@
                 +38 096 111 11 11</a>
                </li> 
         </ul>   
+        <button class="menu-button " type="button" data-menu-button aria-expanded="false">
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню" >
+                <use class="menu-open" href="./images/icons.svg#icon-burger"></use>
+                <use class="menu-close" href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+
+            <!--Мобільне меню-->
+            
+            <div class="mobile-overlay" data-menu>
+            
+                <div class="mobile-menu">
+                    <nav class="mobile-nav">
+                        <ul class="mobile-nav__list">
+                            <li class="mobile-nav__item">
+                                <a href="./index.html" class="mobile-nav__link link">Студия</a>
+                            </li>
+                            <li class="mobile-nav__item">
+                                <a href="./portfolio.html" class="mobile-nav__link link">Портфолио</a>
+                            </li>
+                            <li class="mobile-nav__item">
+                                <a href="" class="mobile-nav__link link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--Контакты-->
+                    <div class="mobile-menu__contacts">
+                        <ul>
+                            <li class="mobile-menu__item">
+                                <a href="mailto:info@devstudio.com" class="mobile-menu__link link ">info@devstudio.com</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="tel:+380961111111" class="mobile-menu__link link">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="networks">
+                        <li class="networks__item">
+                            <a href="" class="networks__link link" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        </li>
+                        <li class="networks__item">
+                            <a href="" class="networks__link link" target="_blank" rel="noopener noreferrer">Twitter</a>
+                        </li>
+                        <li class="networks__item">
+                            <a href="" class="networks__link link" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        </li>
+                        <li class="networks__item">
+                            <a href="" class="networks__link link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </li>
+                    </ul>
+                    </nav>
+                </div>
+
+
+        </div>
 
         </div>
     </header>
@@ -541,6 +596,8 @@
 
         </div>
       </div>
-     <script src="./js/modal.js"></script>  
+      <script src="./js/menu.js"></script>
+     <script src="./js/modal.js"></script> 
+    
 </body>
 </html>
