@@ -1,7 +1,18 @@
+
 /*SUBSCRIBE*/
 .subscribe-form {
-    margin-left: auto;
-}
+    flex-direction: column;
+        margin-top: 60px;
+
+        @media (min-width: 768px) {
+            margin-top: 0px;
+            padding: 0;
+        }
+
+        @media (min-width: 1200px) {
+            margin-left: 23px;
+        }
+    }
 
 .subscribe-form__title {
     font-weight: 700;
@@ -13,6 +24,7 @@
     padding-bottom: 20px;
 
 }
+
 
 .subscribe-form__wrapper {
     display: flex;
@@ -67,9 +79,3 @@
 
 }
 
-.subscribe__icon {
-    fill: var(--light-txt-cl);
-    margin-left: 10px;
-
-
-}
