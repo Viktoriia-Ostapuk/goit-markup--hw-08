@@ -913,6 +913,7 @@ textarea {
 @media (min-width: 1200px) {
   .footer__flex {
     display: flex;
+    align-items: baseline;
     justify-content: center;
     text-align: left;
     gap: 70px;
@@ -1017,7 +1018,6 @@ textarea {
 
 /*SUBSCRIBE*/
 .subscribe-form {
-  flex-direction: column;
   margin-top: 60px;
 }
 
@@ -1044,10 +1044,13 @@ textarea {
   padding-bottom: 20px;
 }
 
-.subscribe-form__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 1200px) {
+  .subscribe-form__wrapper {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .subscribe-form__label {
@@ -1055,7 +1058,7 @@ textarea {
 }
 
 .subscribe-form__input {
-  width: 358px;
+  width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1068,6 +1071,12 @@ textarea {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 1200px) {
+  .subscribe-form__input {
+    width: 358px;
+  }
 }
 
 .subscribe {
@@ -1090,6 +1099,18 @@ textarea {
   align-items: center;
   min-width: 200px;
   min-height: 50px;
+  margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  .subscribe__button {
+    margin-top: 0;
+  }
+}
+
+.subscribe__icon {
+  fill: var(--light-txt-cl);
+  margin-left: 9px;
 }
 
 /*PORTFOLIO*/

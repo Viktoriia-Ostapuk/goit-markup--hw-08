@@ -21,6 +21,7 @@
 
     @media (min-width: 1200px) {
         display: flex;
+        align-items: baseline;
         justify-content: center;
         text-align: left;
         gap: 70px;
@@ -46,6 +47,7 @@
 
 .address__details {
     margin-top: 9px;
+
 }
 
 .address__item--white {
