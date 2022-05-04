@@ -61,7 +61,7 @@
     <!--Герой-->
     <main>
 
-    <section class="section">
+    <section class="section cards">
         <div class="container">
         <h1 class="visually-hidden">Портфолио</h1>
     <ul class="button-list">
@@ -87,12 +87,24 @@
         </li>
     </ul>
     
-    <ul class="cards">
+    <ul class="cards__list">
         
         <li class="cards__content" >
             <a  class="cards__link cards__design" href="">
                 <div class="cards__overlay">
-                <img src="./imagesportfolio/portfolio1.jpg" alt="Экран">
+                
+                <picture>
+                    <source srcset="./imagesportfolio/card-desktop1.jpg 1x, ./imagesportfolio/card-desktop1@2x.jpg 2x " 
+                media="(min-width:1200px)"/>
+                    <source
+                        srcset="./imagesportfolio/card-tablet1.jpg 1x,./imagesportfolio/card-tablet1@2x.jpg 2x "
+                        media="(min-width:768px)" />
+                    <source
+                        srcset="./imagesportfolio/card-mobile1.jpg 1x, ./imagesportfolio/card-mobile1@2x.jpg 2x "
+                        media="(max-width:767px)" />
+
+                    <img src="./imagesportfolio/card-mobile1.jpg" alt="Экран">
+                </picture>
            
                <p class="cards__text">
                    Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
@@ -108,15 +120,24 @@
         <li class="cards__content" >
             <a  class="cards__link cards__design" href="">
                 <div class="cards__overlay">
-                     <img src="./imagesportfolio/portfolio1.jpg" alt="Экран">
+                    <picture>
+                        <source srcset="./imagesportfolio/card-desktop2.jpg 1x, ./imagesportfolio/card-desktop2@2x.jpg 2x "
+                            media="(min-width:1200px)" />
+                        <source srcset="./imagesportfolio/card-tablet2.jpg 1x,./imagesportfolio/card-tablet2@2x.jpg 2x "
+                            media="(min-width:768px)" />
+                        <source srcset="./imagesportfolio/card-mobile2.jpg 1x, ./imagesportfolio/card-mobile2@2x.jpg 2x "
+                            media="(max-width:767px)" />
+                    
+                        <img src="./imagesportfolio/card-mobile2.jpg" alt="Постер">
+                    </picture>
                     <p class="cards__text">
                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
                     </p>
                 </div>
            
             <div class="cards__descr">
-                <h2 class="cards__title">Технокряк</h2>
-                <p class="cards__info">Веб-сайт</p>
+                <h2 class="cards__title">Постер New Orlean vs Golden Star</h2>
+                <p class="cards__info">Дизайн</p>
             </div>
             </a>
         </li>
@@ -124,7 +145,16 @@
         <li class="cards__content ">
             <a  class="cards__link cards__design" href=""> 
                 <div class="cards__overlay">
-            <img src="./imagesportfolio/portfolio3.jpg" alt="Эмблема ресторана">
+                <picture>
+                    <source srcset="./imagesportfolio/card-desktop3.jpg 1x, ./imagesportfolio/card-desktop3@2x.jpg 2x "
+                        media="(min-width:1200px)" />
+                    <source srcset="./imagesportfolio/card-tablet3.jpg 1x,./imagesportfolio/card-tablet3@2x.jpg 2x "
+                        media="(min-width:768px)" />
+                    <source srcset="./imagesportfolio/card-mobile3.jpg 1x, ./imagesportfolio/card-mobile3@2x.jpg 2x "
+                        media="(max-width:767px)" />
+                
+                    <img src="./imagesportfolio/card-mobile3.jpg" alt="Эмблема ресторана">
+                </picture>
             <p class="cards__text">
                 Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
             </p>
@@ -140,7 +170,15 @@
         <li class="cards__content ">
             <a  class="cards__link cards__design" href="">
                 <div class="cards__overlay">
-            <img src="./imagesportfolio/portfolio4.jpg" alt="Наушники">
+                    <picture>
+                        <source srcset="./imagesportfolio/card-desktop4.jpg 1x, ./imagesportfolio/card-desktop4@2x.jpg 2x "
+                            media="(min-width:1200px)" />
+                        <source srcset="./imagesportfolio/card-tablet4.jpg 1x,./imagesportfolio/card-tablet4@2x.jpg 2x "
+                            media="(min-width:768px)" />
+                        <source srcset="./imagesportfolio/card-mobile4.jpg 1x, ./imagesportfolio/card-mobile4@2x.jpg 2x "
+                            media="(max-width:767px)" />
+                        <img src="./imagesportfolio/card-mobile4.jpg" alt="Наушники">
+                    </picture>
             <p class="cards__text">
                 Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
             </p>
@@ -155,7 +193,15 @@
         <li class="cards__content cards__link cards__design">
             <a  class="cards__link cards__design" href=""> 
                 <div class="cards__overlay">
-            <img src="./imagesportfolio/portfolio5.jpg" alt="Коробки">
+                    <picture>
+                        <source srcset="./imagesportfolio/card-desktop5.jpg 1x, ./imagesportfolio/card-desktop5@2x.jpg 2x "
+                            media="(min-width:1200px)" />
+                        <source srcset="./imagesportfolio/card-tablet5.jpg 1x,./imagesportfolio/card-tablet5@2x.jpg 2x "
+                            media="(min-width:768px)" />
+                        <source srcset="./imagesportfolio/card-mobile5.jpg 1x, ./imagesportfolio/card-mobile5@2x.jpg 2x "
+                            media="(max-width:767px)" />
+                        <img src="./imagesportfolio/card-mobile5.jpg" alt="Коробки">
+                    </picture>
             <p class="cards__text">
                 Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
             </p>
@@ -170,7 +216,15 @@
         <li class="cards__content cards__link cards__design">
         <a  class="cards__link cards__design" href=""> 
                 <div class="cards__overlay">
-            <img src="./imagesportfolio/portfolio6.jpg" alt="Компьютер">
+                    <picture>
+                        <source srcset="./imagesportfolio/card-desktop6.jpg 1x, ./imagesportfolio/card-desktop6@2x.jpg 2x "
+                            media="(min-width:1200px)" />
+                        <source srcset="./imagesportfolio/card-tablet6.jpg 1x,./imagesportfolio/card-tablet6@2x.jpg 2x "
+                            media="(min-width:768px)" />
+                        <source srcset="./imagesportfolio/card-mobile6.jpg 1x, ./imagesportfolio/card-mobile6@2x.jpg 2x "
+                            media="(max-width:767px)" />
+                        <img src="./imagesportfolio/card-mobile6.jpg" alt="Компьютер">
+                    </picture>
             <p class="cards__text">
                 Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
             </p>
@@ -185,7 +239,15 @@
         <li class="cards__content cards__link cards__design">
          <a  class="cards__link cards__design" href=""> 
                 <div class="cards__overlay">   
-            <img src="./imagesportfolio/portfolio7.jpg" alt="Журнал">
+                    <picture>
+                        <source srcset="./imagesportfolio/card-desktop7.jpg 1x, ./imagesportfolio/card-desktop7@2x.jpg 2x "
+                            media="(min-width:1200px)" />
+                        <source srcset="./imagesportfolio/card-tablet7.jpg 1x,./imagesportfolio/card-tablet7@2x.jpg 2x "
+                            media="(min-width:768px)" />
+                        <source srcset="./imagesportfolio/card-mobile7.jpg 1x, ./imagesportfolio/card-mobile7@2x.jpg 2x "
+                            media="(max-width:767px)" />
+                        <img src="./imagesportfolio/card-mobile7.jpg" alt="Журнал">
+                    </picture>
             <p class="cards__text">
                 Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
             </p>
@@ -200,7 +262,15 @@
         <li class="cards__content cards__link cards__design">
           <a  class="cards__link cards__design" href=""> 
                 <div class="cards__overlay"> 
-            <img src="./imagesportfolio/portfolio8.jpg" alt="Лейбл">
+                    <picture>
+                        <source srcset="./imagesportfolio/card-desktop8.jpg 1x, ./imagesportfolio/card-desktop8@2x.jpg 2x "
+                            media="(min-width:1200px)" />
+                        <source srcset="./imagesportfolio/card-tablet8.jpg 1x,./imagesportfolio/card-tablet8@2x.jpg 2x "
+                            media="(min-width:768px)" />
+                        <source srcset="./imagesportfolio/card-mobile8.jpg 1x, ./imagesportfolio/card-mobile8@2x.jpg 2x "
+                            media="(max-width:767px)" />
+                        <img src="./imagesportfolio/card-mobile8.jpg" alt="Лейбл">
+                    </picture>
             <p class="cards__text">
                 Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
             </p>
@@ -215,7 +285,15 @@
         <li class="cards__content ">
           <a  class="cards__link cards__design" href=""> 
                 <div class="cards__overlay">  
-            <img src="./imagesportfolio/portfolio9.jpg" alt="Человек работает за ноутбуком">
+                    <picture>
+                        <source srcset="./imagesportfolio/card-desktop9.jpg 1x, ./imagesportfolio/card-desktop9@2x.jpg 2x "
+                            media="(min-width:1200px)" />
+                        <source srcset="./imagesportfolio/card-tablet9.jpg 1x,./imagesportfolio/card-tablet9@2x.jpg 2x "
+                            media="(min-width:768px)" />
+                        <source srcset="./imagesportfolio/card-mobile9.jpg 1x, ./imagesportfolio/card-mobile9@2x.jpg 2x "
+                            media="(max-width:767px)" />
+                        <img src="./imagesportfolio/card-mobile9.jpg" alt="Человек работает за ноутбуком">
+                    </picture>
             <p class="cards__text">
                 Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
             </p>
