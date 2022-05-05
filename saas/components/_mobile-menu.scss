@@ -8,7 +8,7 @@
 }
 
 
-.mobile-nav__item{
+.mobile-menu__item{
     
         &:not(:last-child) {
             margin-bottom: 32px;
@@ -59,8 +59,24 @@ color: #757575;}
     margin-bottom: 32px;
 
 }
+.networks {
+    display: inline-flex;
+    padding-top: 64px;
+}
+
 .networks__link{
     list-style-type: none;
     text-decoration: none;
 
+}
+
+.networks__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    padding-right: 20px;
 }
