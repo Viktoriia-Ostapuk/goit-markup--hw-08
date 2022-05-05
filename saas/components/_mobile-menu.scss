@@ -8,12 +8,14 @@
 }
 
 
-.mobile-menu__item{
+.mobile-nav__item{
     
         &:not(:last-child) {
             margin-bottom: 32px;
         }
  }
+
+
 
 
 
@@ -45,7 +47,12 @@ line-height: 1.17;
 letter-spacing: 0.02em;
 color: #757575;}
 // лишаю фонт сайз але ділю лайн хейт на фонт сайз і виводжу лайн хейт
+.mobile-menu__item {
 
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
 .mobile-menu__number {
     font-family: 'Roboto';
     font-style: normal;
@@ -79,4 +86,5 @@ color: #757575;}
     letter-spacing: 0.02em;
     color: #2196F3;
     padding-right: 20px;
+    
 }

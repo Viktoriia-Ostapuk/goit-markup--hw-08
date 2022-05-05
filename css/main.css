@@ -340,7 +340,7 @@ textarea {
   margin-bottom: 306px;
 }
 
-.mobile-menu__item:not(:last-child) {
+.mobile-nav__item:not(:last-child) {
   margin-bottom: 32px;
 }
 
@@ -371,6 +371,10 @@ textarea {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.mobile-menu__item:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .mobile-menu__number {
