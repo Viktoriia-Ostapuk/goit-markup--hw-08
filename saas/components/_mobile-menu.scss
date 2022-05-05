@@ -1,0 +1,66 @@
+.mobile-menu {
+    text-decoration: none;
+    
+}
+
+.mobile-nav {
+    margin-bottom: 306px;
+}
+
+
+.mobile-nav__item{
+    
+        &:not(:last-child) {
+            margin-bottom: 32px;
+        }
+ }
+
+
+
+.mobile-nav__link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--title-cl);
+
+    &:focus,
+    &:hover {
+        color: var(--accent-txt-cl);
+    }
+
+    &--current {
+        color: var(--accent-txt-cl);
+    }
+}
+.mobile-menu__link {
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+color: #757575;}
+// лишаю фонт сайз але ділю лайн хейт на фонт сайз і виводжу лайн хейт
+
+.mobile-menu__number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2196F3;
+    margin-bottom: 32px;
+
+}
+.networks__link{
+    list-style-type: none;
+    text-decoration: none;
+
+}

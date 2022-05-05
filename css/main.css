@@ -316,10 +316,6 @@ textarea {
   opacity: 1;
 }
 
-.mobile-nav {
-  margin-bottom: auto;
-}
-
 .menu-open {
   opacity: 1;
 }
@@ -334,6 +330,64 @@ textarea {
 
 .menu-button.is-open .menu-close {
   opacity: 1;
+}
+
+.mobile-menu {
+  text-decoration: none;
+}
+
+.mobile-nav {
+  margin-bottom: 306px;
+}
+
+.mobile-nav__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile-nav__link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--title-cl);
+}
+
+.mobile-nav__link:focus, .mobile-nav__link:hover {
+  color: var(--accent-txt-cl);
+}
+
+.mobile-nav__link--current {
+  color: var(--accent-txt-cl);
+}
+
+.mobile-menu__link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mobile-menu__number {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2196F3;
+  margin-bottom: 32px;
+}
+
+.networks__link {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .hero {
