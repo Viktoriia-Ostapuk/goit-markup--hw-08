@@ -1059,8 +1059,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   grid-gap: 30px;
 }
 
