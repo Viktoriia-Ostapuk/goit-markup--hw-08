@@ -37,6 +37,13 @@
         color: var(--accent-txt-cl);
     }
 }
+
+.mobile-menu__flex {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 48px;
+}
+
 .mobile-menu__link {
 text-decoration: none;
 font-family: Roboto;
